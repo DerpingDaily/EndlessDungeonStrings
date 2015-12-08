@@ -1,0 +1,80 @@
+<text>
+	<enemies>
+		<enemy type="Skeleton">
+			<greetings>
+				<message>A bunch of bones suddenly decided to rebuild into walking skeleton. This is going to get nasty</message>
+				<message>Skeletons suck. Sadly, the one you've met on your way plans to change your point of view</message>
+				<message>One of adventurers that tried to raid this dungeon and failed decided to beat the crap out of you because reasons</message>
+			</greetings>
+			<hit>
+				<message>Skeleton cuts you with his rusty sword for %D% damage!</message>
+				<message>What a cruel hit from skeleton! He just sust slammed his skull into you and done %D% damage!</message>
+				<message>Guess what skeleton can do? Bite you. Yeah. By the way, this did %D% damage. Ouch</message>
+				<message>Legends say that skeletons and other undead guys are capable of regenerating. You seem to be unable to do so: otherwise, why would your enemy hit you for %D% damage?</message>
+				<message>Despite consisting of bones, this guy managed to hit you rather hard, leaving you without %D% HP</message>
+			</hit>
+			<death>
+				<message>Skeleton gone back to his usual state: lying around without any purpose after getting %D% damage form you</message>
+				<message>Skeleton is dead now. Twice. All thanks to your hit - you just beat %D% hitpoints out of him!</message>
+			</death>
+			<loot>
+				<message>Amongst the bones there are %GLD% gold. And guess what? You've learned something new today. Something that worth %EXP% experience</message>
+				<message>Since this guy did not manage to survive in this dungeon, you decided that his %GLD% coins wont help him anymore. Lession learned: surviving here is hard. Thats why you got %EXP% experience from this fight.</message>
+			</loot>
+		</enemy>
+		<enemy type = "Goblin">
+			<greetings>A goblin! How generic</greetings>
+			<greetings>A goblin! How generic</greetings>
+		</enemy>
+	
+	</enemies>
+	<weapons>
+		<weapon type = "sword">
+			<hit>
+				<message>You hit %M% for %D% damage!</message>
+				<message>You slash %M% for %D% damage!</message>
+				<message>You thrust %M% for %D% damage!</message>
+			</hit>
+		</weapon>
+		<weapon type = "dagger">
+			<hit>
+				<message>You slash %M% for %D% damage!</message>
+				<message>You cut %M% for %D% damage!</message>
+			</hit>
+		</weapon>
+		<weapon type = "spear">
+			<hit>
+				<message>You slash %M% for %D% damage!</message>
+			</hit>
+		</weapon>
+	</weapons>
+	
+	<potions>
+		<potion type = "skeleton">
+			<weak>
+				<message>Weak mixture of healing</message>
+			</weak>
+			<normal>
+				<message>Potion of restoration</message>
+			</normal>
+			<good>
+				<message>Flask of revival</message>
+			</good>
+		</potion>
+	</potions>
+	
+	<shop>
+		<brand type = "skeleton">
+			<localizedName>
+				<message>Skeleton Goods</message>
+			</localizedName>
+			<slogan>
+				<message>Most generic stuff out there</message>
+				<message>Find anything more plain - we pay for it!</message>
+			</slogan>
+			<greeting>
+				<message>Wanna buy something?</message>
+			</greeting>
+		</brand>
+	</shop>
+</text>
