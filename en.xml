@@ -1,3 +1,9 @@
+<!--
+	%D% is placeholder for damage value
+	%GLD% = gold gain
+	%EXP% = experience gain
+	%M% = monster name
+-->
 <text>
 	<enemies>
 		<enemy type="Skeleton">
