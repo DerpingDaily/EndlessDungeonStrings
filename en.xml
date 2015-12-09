@@ -7,10 +7,14 @@
 <text>
 	<enemies>
 		<enemy type="Skeleton">
+      <localizedName>
+        <message>Skeleton</message>
+      </localizedName>
 			<greetings>
 				<message>A bunch of bones suddenly decided to rebuild into walking skeleton. This is going to get nasty</message>
 				<message>Skeletons suck. Sadly, the one you've met on your way plans to change your point of view</message>
 				<message>One of adventurers that tried to raid this dungeon and failed decided to beat the crap out of you because reasons</message>
+        <message>Skeletons are spooky. Skeletons that are planning to kill you are even worse - you are going to learn that hard way</message>
 			</greetings>
 			<hit>
 				<message>Skeleton cuts you with his rusty sword for %D% damage!</message>
@@ -18,22 +22,28 @@
 				<message>Guess what skeleton can do? Bite you. Yeah. By the way, this did %D% damage. Ouch</message>
 				<message>Legends say that skeletons and other undead guys are capable of regenerating. You seem to be unable to do so: otherwise, why would your enemy hit you for %D% damage?</message>
 				<message>Despite consisting of bones, this guy managed to hit you rather hard, leaving you without %D% HP</message>
+        <message>Apparently, being dead for a long time is not something that can hurt your swordsmanship skills. That %D% damage hit from skeleton was totally unexpected!</message>
 			</hit>
 			<death>
 				<message>Skeleton gone back to his usual state: lying around without any purpose after getting %D% damage form you</message>
 				<message>Skeleton is dead now. Twice. All thanks to your hit - you just beat %D% hitpoints out of him!</message>
+        <message>Dying twice in a row sucks, probably. Skeleton wont confirm that for you: he's dead, you know, hitting him for %D% damage didnt suddenly made him alive</message>
+        <message>Well, he's dead. Not to say he wasnt before, but smashing his skull and dealing %D% damage was a good way to ensure his demise</message>
 			</death>
 			<loot>
 				<message>Amongst the bones there are %GLD% gold. And guess what? You've learned something new today. Something that worth %EXP% experience</message>
 				<message>Since this guy did not manage to survive in this dungeon, you decided that his %GLD% coins wont help him anymore. Lession learned: surviving here is hard. Thats why you got %EXP% experience from this fight.</message>
-			</loot>
+        <message>Robbing someone is not something you should do: while getting %GLD% gold is nice and all, killing dude for second time in his life and getting his loot is not something that Dungeon Court will approve, if it does exists. Better get those %EXP% experience points to use if you're ever gonna meet them</message>
+        <message>Whoever overlooked wealth of this guy after killing him previously did missed bunch of goodies: %GLD% spare gold is something thats nice to have. You've remembered that well, gaining %EXP% experience</message>
+        <message>"Day one of my adventures: i think ill go deeper for now. Seen some skeletons out there, should take care of that. I hope %GLD% gold is not going to be worthless in here". Yeah, sure, writing a diary is good idea for hobby in dungeon full of monsters. At least his gold will serve you well from now on together with %EXP% hard earned experience gotten from killing him</message>
+      </loot>
 		</enemy>
 		<enemy type = "Goblin">
 			<greetings>A goblin! How generic</greetings>
 			<greetings>A goblin! How generic</greetings>
 		</enemy>
-	
 	</enemies>
+  
 	<weapons>
 		<weapon type = "sword">
 			<hit>
@@ -46,11 +56,14 @@
 			<hit>
 				<message>You slash %M% for %D% damage!</message>
 				<message>You cut %M% for %D% damage!</message>
+        <message>You stab %M% for %D% damage!</message>
+        <message>Daggers are kinda nice. Looking edgy and all, you managed to deal %D% damage to %M%.</message>
+        <message>Trying to look like some serial killer, you wielded one of your daggers like a knife. That kinda worked: %D% damage done to %M% will back up this story later on</message>
 			</hit>
 		</weapon>
 		<weapon type = "spear">
 			<hit>
-				<message>You slash %M% for %D% damage!</message>
+				<message>You thrust %M% for %D% damage!</message>
 			</hit>
 		</weapon>
 	</weapons>
@@ -80,7 +93,20 @@
 			</slogan>
 			<greeting>
 				<message>Wanna buy something?</message>
+        <message>Lemme find my hand and i'll show you my wares!</message>
 			</greeting>
 		</brand>
 	</shop>
+
+  <skill>
+    <name type ="corrosion">
+      <localizedName>
+        <message>Corrosive strikes</message>
+      </localizedName>
+      <hit>
+        <message>Your weapon melts enemy defences, allowing you to deal %D% bonus damage</message>
+        <message>Hit by hit, you slowly work trough enemy resistance, dealing %D% bonus damage</message>
+      </hit>
+    </name>
+  </skill>
 </text>
